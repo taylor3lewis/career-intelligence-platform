@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+{% block title %}Trabalho de finalização de curso{% endblock %}
+{% block content %}
+    <div class="block incremental_model">
+        <form action="/relacoes" method="post">
+            <div class="form-title">
+                <h3>Relações entre requerimentos</h3>
+                <p>Termos: {% for termo in termos %}<span>{{termo}}</span>{% endfor %}</p>
+            </div>
+            <div class="form-ct-line">
+                <div class="occupy">
+                    <label for="name">Inserir Termos</label>
+                    <div class="ct-row">
+                        <div class="inputs" id="inputs">
+                            <input type="text" name="term_1" placeholder="Insira um termo" />
+                        </div>
+                        <div class="more">
+                         <p id="more_tags">+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" value="Buscar"  />
+        </form>
+    </div>
+
+    {% if not_found %}
+    <div class="not_found">
+        <p>Termos não encontrados:</p>
+        {% for nf in not_found %}
+        <span>{{nf}}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if match_needed %}
+    <div class="match_needed">
+        <p>Termos Correlacionados mais relevantes:</p>
+        {% for tn in match_needed %}
+        <span>{{tn}}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="relations">
+        {% for result in results %}
+        <div class="relation-block">
+            <h4>{{ result.term }}</h4>
+            <ul>
+                {% for item in result.list %}
+                    <li>
+                    {% if item.strong %}
+                        {% if item.special %}
+                            <strong class="special-item">{{ item.nid }}</strong>
+                        {% else %}
+                            <strong>{{ item.nid }}</strong>
+                        {% endif %}
+                    {% else %}{{ item.nid }}{% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="note">
+        <p style="color: #04627F;">Items com essa cor são os que se repetem em mais de um cartão de requerimentos relacionados</p>
+        <p style="color: #00B9B5;">items com essa cor são os que, além de aparecerem em outros requerimentos, <br />apresentam as maiores faixas salariais</p>
+    </div>
+
+<script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="/static/js/requirements.js"></script>
+{% endblock %}

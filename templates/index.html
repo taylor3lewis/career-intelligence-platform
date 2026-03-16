@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% block title %}Trabalho de finalização de curso{% endblock %}
+{% block content %}
+    <div class="block">
+	<form action="/busca" method="post">
+	    <div>
+	    	<h3>Busca</h3>
+	    </div>
+		<div class="form-ct-line">
+			<div class="occupy">
+				 <label for="name">Inserir Termos</label>
+				 <div class="inputs">
+					 <input type="text" name="searchText" placeholder="Insira os termos aqui" />
+				 </div>
+			</div>
+			<div class="submit">
+				<input type="submit" value="Buscar"  />
+			</div>
+		</div>
+	</form>
+    </div>
+
+    <div class="block right-side">
+        <div class="title-block">
+            <h3><img src="/static/img/chart.png" /> <span>Dashboard</span> </h3>
+        </div>
+        <div class="desc">
+            <div><p>Veja aqui algumas estatísticas sobre o mercado de trabalho.</p></div>
+            <div><a href="/graphs"><button>Acesso ao Dashboard</button></a></div>
+        </div>
+	</div>
+
+    <div class="block left-side">
+        <div class="title-block">
+            <h3><span>Relações de requerimentos</span> <img src="/static/img/relations.png" /></h3>
+        </div>
+        <div class="desc">
+            <div><a href="/relacoes"><button>Acesse aqui</button></a></div>
+            <div><p>Aqui você pode buscar quais habilidades que você ainda não tem são pedidas pelas empresas. Assim você orientar melhor seus estudos, escolhendo o que deve aprender em seguida para aumentar suas chances de contratação.</p></div>
+        </div>
+	</div>
+    <!--<div class="block right-side">-->
+        <!--<div class="title-block">-->
+            <!--<h3><img src="/static/img/salary.png" /> <span>Média salarial por habilidades</span> </h3>-->
+        <!--</div>-->
+        <!--<div class="desc">-->
+            <!--<div><p>Aqui você pode ver em qual faixa salarial média você se encontra. Insira suas habilidades e nós te daremos um valor médio do que é oferecido pelas empresas para um profissional com o seu perfil.</p></div>-->
+            <!--<div><button>Acesse aqui</button></div>-->
+        <!--</div>-->
+	<!--</div>-->
+
+
+{% endblock %}

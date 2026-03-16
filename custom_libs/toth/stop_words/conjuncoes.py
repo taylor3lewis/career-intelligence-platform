@@ -1,0 +1,2 @@
+# coding: utf-8
+CONJUNCOES = {u"embora": None, u"porquanto": None, u"tão": None, u"logo": None, u"senão": None, u"entretanto": None, u"porque": None, u"mas": None, u"segundo": None, u"quando": None, u"pois": None, u"conquanto": None, u"que": None, u"como": None, u"tanto": None, u"apenas": None, u"contudo": None, u"consoante": None, u"já": None, u"ora": None, u"porém": None, u"portanto": None, u"todavia": None, u"ou": None, u"se": None, u"conforme": None}

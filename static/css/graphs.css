@@ -1,0 +1,213 @@
+.form-ct-line {
+    margin: 0 0 20px;
+}
+
+.incremental_model button {
+
+}
+/*--------------------------------------------------------------------------------------*/
+
+/*
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-a .ct-bar{
+    stroke: rgba(4, 0, 175, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-b .ct-bar{
+    stroke: rgba(107, 0, 175, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-c .ct-bar{
+    stroke: rgba(175, 0, 137, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-d .ct-bar{
+    stroke: rgba(175, 0, 34, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-e .ct-bar{
+    stroke: rgba(175, 70, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-f .ct-bar{
+    stroke: rgba(175, 172, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-g .ct-bar{
+    stroke: rgba(72, 175, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-h .ct-bar{
+    stroke: rgba(0, 175, 32, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-i .ct-bar{
+    stroke: rgba(0, 175, 135, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-j .ct-bar{
+    stroke: rgba(0, 109, 175, 1);
+}
+*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-a .ct-slice-pie{
+    fill: rgba(4, 0, 175, 1);
+    stroke: rgba(255, 255, 255, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-b .ct-slice-pie{
+    fill: rgba(107, 0, 175, 1);
+    stroke: rgba(255, 255, 255, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-c .ct-slice-pie{
+    fill: rgba(175, 0, 137, 1);
+    stroke: rgba(255, 255, 255, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-d .ct-slice-pie{
+    fill: rgba(175, 0, 34, 1);
+    stroke: rgba(255, 255, 255, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-e .ct-slice-pie{
+    fill: rgba(175, 70, 0, 1);
+    stroke: rgba(255, 255, 255, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-f .ct-slice-pie{
+    fill: rgba(175, 172, 0, 1);
+    stroke: rgba(255, 255, 255, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-g .ct-slice-pie{
+    fill: rgba(72, 175, 0, 1);
+    stroke: rgba(255, 255, 255, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-h .ct-slice-pie{
+    fill: rgba(0, 175, 32, 1);
+    stroke: rgba(255, 255, 255, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-i .ct-slice-pie{
+    fill: rgba(0, 175, 135, 1);
+    stroke: rgba(255, 255, 255, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-j .ct-slice-pie{
+    fill: rgba(0, 109, 175, 1);
+    stroke: rgba(255, 255, 255, 1);
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-a .ct-point{
+    stroke: rgba(4, 0, 175, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-b .ct-point{
+    stroke: rgba(107, 0, 175, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-c .ct-point{
+    stroke: rgba(175, 0, 137, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-d .ct-point{
+    stroke: rgba(175, 0, 34, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-e .ct-point{
+    stroke: rgba(175, 70, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-f .ct-point{
+    stroke: rgba(175, 172, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-g .ct-point{
+    stroke: rgba(72, 175, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-h .ct-point{
+    stroke: rgba(0, 175, 32, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-i .ct-point{
+    stroke: rgba(0, 175, 135, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-j .ct-point{
+    stroke: rgba(0, 109, 175, 1);
+}
+
+/*=============================================================================================*/
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-a .ct-line{
+    stroke: rgba(4, 0, 175, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-b .ct-line{
+    stroke: rgba(107, 0, 175, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-c .ct-line{
+    stroke: rgba(175, 0, 137, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-d .ct-line{
+    stroke: rgba(175, 0, 34, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-e .ct-line{
+    stroke: rgba(175, 70, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-f .ct-line{
+    stroke: rgba(175, 172, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-g .ct-line{
+    stroke: rgba(72, 175, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-h .ct-line{
+    stroke: rgba(0, 175, 32, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-i .ct-line{
+    stroke: rgba(0, 175, 135, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-j .ct-line{
+    stroke: rgba(0, 109, 175, 1);
+}
+/*============================================================================================*/
+.container .container-inner .omni-container .centralization .dash-ct .ct-line{
+    stroke-width:1px;
+    opacity:0.25;
+}
+/*.container .container-inner .omni-container .centralization .dash-ct .ct-series-b .ct-point{
+    stroke: #000;
+}
+.container .container-inner .omni-container .centralization .dash-ct .ct-series-b .ct-line{
+    stroke: #000;
+}*/
+/*------------------------------------------------------------------------------------*/
+
+.container .container-inner .omni-container .centralization .dash-ct .legend-a{
+    background-color: rgba(4, 0, 175, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .legend-b{
+    background-color: rgba(107, 0, 175, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .legend-c{
+    background-color: rgba(175, 0, 137, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .legend-d{
+    background-color: rgba(175, 0, 34, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .legend-e{
+    background-color: rgba(175, 70, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .legend-f{
+    background-color: rgba(175, 172, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .legend-g{
+    background-color: rgba(72, 175, 0, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .legend-h{
+    background-color: rgba(0, 175, 32, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .legend-i{
+    background-color: rgba(0, 175, 135, 1);
+}
+.container .container-inner .omni-container .centralization .dash-ct .legend-j{
+    background-color: rgba(0, 109, 175, 1);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+#graph-legend {
+    display: flex;
+    justify-content: center;
+}
+
+#graph-legend span {
+    padding: 4px 10px;
+    border: 0 none;
+    border-radius: 13px;
+    margin: 0 4px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.bar-chart .ct-label.ct-label.ct-horizontal.ct-end{
+    transform: translateY(-5%) translateX(-19%) rotate(-27deg);
+}

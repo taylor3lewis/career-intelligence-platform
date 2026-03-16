@@ -1,0 +1,23 @@
+{
+  "name": "job-scrapper",
+  "version": "1.0.0",
+  "description": "Ciência de dados aplicada a recolocação profissional",
+  "main": "basic.js",
+  "dependencies": {
+    "chartist": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/taylor3lewis/job-scrapper/src/master/"
+  },
+  "keywords": [
+    "job",
+    "scrapper"
+  ],
+  "author": "Taylor Lewis",
+  "license": "ISC"
+}

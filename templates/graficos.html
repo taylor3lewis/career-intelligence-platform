@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+{% block title %}Trabalho de finalização de curso{% endblock %}
+{% block customHead %}
+	<link rel="stylesheet" href="static/js/node_modules/chartist/dist/chartist.min.css">
+	<link rel="stylesheet" href="static/css/graphs.css">
+{% endblock %}
+{% block content %}
+
+    <div class="dash-ct">
+        <div class="block graph incremental_model">
+            <h3 style="text-align: center">Média Salarial <br /><i>Por número de vagas</i></h3>
+            <div id="graph3"></div>
+            <div id="graph-legend"></div>
+            <div class="form-ct-line">
+                <div class="occupy">
+                    <label for="name">Inserir Termos</label>
+                    <div class="ct-row">
+                        <div class="inputs" id="inputs">
+                            <input type="text" name="term_1" placeholder="Insira um termo" />
+                        </div>
+                        <div class="more">
+                         <p id="more_tags">+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ctr">
+                <button onclick="getDataToChart()">Buscar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="dash-ct">
+        <div class="block graph graph-50-perc bar-chart">
+            <h3>Linguagens de mais pedidas <br /><i>Top 10</i></h3>
+            <div id="graph1"></div>
+        </div>
+
+        <div class="block graph graph-50-perc bar-chart">
+            <h3>Bancos de dados mais pedidos <br /><i>Top 10</i></h3>
+            <div id="graph2"></div>
+        </div>
+    </div>
+
+
+
+<script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+<script src="static/js/node_modules/chartist/dist/chartist.min.js"></script>
+<script type="text/javascript" src="/static/js/graphs.js"></script>
+{% endblock %}
